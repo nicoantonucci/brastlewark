@@ -1,0 +1,12 @@
+.Gnome {
+  color: #000;
+  font-weight: 500;
+}
+
+.Img {
+  width: 200px;
+  height: 200px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
