@@ -3,7 +3,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import rootReducer from './reducer';
 import createSagaMiddleware from 'redux-saga';
 
-import { watchGnomes } from './sagas';
+import { watchGnomes } from './sagas/gnomes';
 
 const sagaMiddleware = createSagaMiddleware();
 
