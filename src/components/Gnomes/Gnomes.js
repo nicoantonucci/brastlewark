@@ -27,7 +27,7 @@ const Gnomes = props => {
 };
 
 Gnomes.propTypes = {
-  pagesShown: PropTypes.number.isRequired,
+  pagesShown: PropTypes.number,
   gnomes: PropTypes.array.isRequired
 };
 
